@@ -1,0 +1,28 @@
+2022-07-29 12:46:05.165 +03:00 [INF] Now listening on: https://localhost:7125
+2022-07-29 12:46:05.193 +03:00 [INF] Now listening on: http://localhost:5125
+2022-07-29 12:46:05.196 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-29 12:46:05.196 +03:00 [INF] Hosting environment: Development
+2022-07-29 12:46:05.197 +03:00 [INF] Content root path: D:\c#\HotelListing\HotelListing.API\
+2022-07-29 12:46:36.041 +03:00 [INF] Application is shutting down...
+2022-07-29 13:49:43.771 +03:00 [INF] Now listening on: https://localhost:7125
+2022-07-29 13:49:43.797 +03:00 [INF] Now listening on: http://localhost:5125
+2022-07-29 13:49:43.800 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-29 13:49:43.802 +03:00 [INF] Hosting environment: Development
+2022-07-29 13:49:43.803 +03:00 [INF] Content root path: D:\c#\HotelListing\HotelListing.API\
+2022-07-29 13:52:03.482 +03:00 [INF] Now listening on: https://localhost:7125
+2022-07-29 13:52:03.508 +03:00 [INF] Now listening on: http://localhost:5125
+2022-07-29 13:52:03.510 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-29 13:52:03.511 +03:00 [INF] Hosting environment: Development
+2022-07-29 13:52:03.511 +03:00 [INF] Content root path: D:\c#\HotelListing\HotelListing.API\
+2022-07-29 13:53:20.501 +03:00 [INF] Now listening on: https://localhost:7125
+2022-07-29 13:53:20.526 +03:00 [INF] Now listening on: http://localhost:5125
+2022-07-29 13:53:20.529 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-29 13:53:20.529 +03:00 [INF] Hosting environment: Development
+2022-07-29 13:53:20.530 +03:00 [INF] Content root path: D:\c#\HotelListing\HotelListing.API\
+2022-07-29 14:02:01.601 +03:00 [INF] Application is shutting down...
+2022-07-29 14:29:51.326 +03:00 [INF] Now listening on: https://localhost:7125
+2022-07-29 14:29:51.352 +03:00 [INF] Now listening on: http://localhost:5125
+2022-07-29 14:29:51.354 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-29 14:29:51.355 +03:00 [INF] Hosting environment: Development
+2022-07-29 14:29:51.355 +03:00 [INF] Content root path: D:\c#\HotelListing\HotelListing.API\
+2022-07-29 14:29:54.238 +03:00 [INF] Application is shutting down...
