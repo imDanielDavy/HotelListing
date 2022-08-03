@@ -1,0 +1,6 @@
+2022-08-01 14:03:45.236 +03:00 [INF] Now listening on: https://localhost:7125
+2022-08-01 14:03:45.261 +03:00 [INF] Now listening on: http://localhost:5125
+2022-08-01 14:03:45.264 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-01 14:03:45.264 +03:00 [INF] Hosting environment: Development
+2022-08-01 14:03:45.265 +03:00 [INF] Content root path: D:\c#\HotelListing\HotelListing.API\
+2022-08-01 14:04:49.942 +03:00 [WRN] User validation failed: DuplicateUserName.
