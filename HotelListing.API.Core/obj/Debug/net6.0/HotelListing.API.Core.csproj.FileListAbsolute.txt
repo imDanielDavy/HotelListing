@@ -1,0 +1,15 @@
+D:\c#\HotelListing\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.csproj.AssemblyReference.cache
+D:\c#\HotelListing\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\HotelListing\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.AssemblyInfoInputs.cache
+D:\c#\HotelListing\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.AssemblyInfo.cs
+D:\c#\HotelListing\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.csproj.CoreCompileInputs.cache
+D:\c#\HotelListing\HotelListing.API.Core\bin\Debug\net6.0\HotelListing.API.Core.deps.json
+D:\c#\HotelListing\HotelListing.API.Core\bin\Debug\net6.0\HotelListing.API.Core.dll
+D:\c#\HotelListing\HotelListing.API.Core\bin\Debug\net6.0\HotelListing.API.Core.pdb
+D:\c#\HotelListing\HotelListing.API.Core\bin\Debug\net6.0\HotelListing.API.Data.dll
+D:\c#\HotelListing\HotelListing.API.Core\bin\Debug\net6.0\HotelListing.API.Data.pdb
+D:\c#\HotelListing\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.csproj.CopyComplete
+D:\c#\HotelListing\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.dll
+D:\c#\HotelListing\HotelListing.API.Core\obj\Debug\net6.0\refint\HotelListing.API.Core.dll
+D:\c#\HotelListing\HotelListing.API.Core\obj\Debug\net6.0\HotelListing.API.Core.pdb
+D:\c#\HotelListing\HotelListing.API.Core\obj\Debug\net6.0\ref\HotelListing.API.Core.dll

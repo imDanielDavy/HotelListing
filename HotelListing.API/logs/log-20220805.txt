@@ -1,0 +1,11 @@
+2022-08-05 11:52:48.126 +03:00 [INF] Now listening on: https://localhost:7125
+2022-08-05 11:52:48.152 +03:00 [INF] Now listening on: http://localhost:5125
+2022-08-05 11:52:48.154 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-05 11:52:48.155 +03:00 [INF] Hosting environment: Development
+2022-08-05 11:52:48.155 +03:00 [INF] Content root path: D:\c#\HotelListing\HotelListing.API\
+2022-08-05 12:10:30.062 +03:00 [INF] Application is shutting down...
+2022-08-05 12:31:44.439 +03:00 [INF] Now listening on: https://localhost:7125
+2022-08-05 12:31:44.464 +03:00 [INF] Now listening on: http://localhost:5125
+2022-08-05 12:31:44.466 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-08-05 12:31:44.467 +03:00 [INF] Hosting environment: Development
+2022-08-05 12:31:44.467 +03:00 [INF] Content root path: D:\c#\HotelListing\HotelListing.API\

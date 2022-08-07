@@ -1,0 +1,12 @@
+D:\c#\HotelListing\HotelListing.Data\obj\Debug\net6.0\HotelListing.API.Data.csproj.AssemblyReference.cache
+D:\c#\HotelListing\HotelListing.Data\obj\Debug\net6.0\HotelListing.API.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\HotelListing\HotelListing.Data\obj\Debug\net6.0\HotelListing.API.Data.AssemblyInfoInputs.cache
+D:\c#\HotelListing\HotelListing.Data\obj\Debug\net6.0\HotelListing.API.Data.AssemblyInfo.cs
+D:\c#\HotelListing\HotelListing.Data\obj\Debug\net6.0\HotelListing.API.Data.csproj.CoreCompileInputs.cache
+D:\c#\HotelListing\HotelListing.Data\bin\Debug\net6.0\HotelListing.API.Data.deps.json
+D:\c#\HotelListing\HotelListing.Data\bin\Debug\net6.0\HotelListing.API.Data.dll
+D:\c#\HotelListing\HotelListing.Data\bin\Debug\net6.0\HotelListing.API.Data.pdb
+D:\c#\HotelListing\HotelListing.Data\obj\Debug\net6.0\HotelListing.API.Data.dll
+D:\c#\HotelListing\HotelListing.Data\obj\Debug\net6.0\refint\HotelListing.API.Data.dll
+D:\c#\HotelListing\HotelListing.Data\obj\Debug\net6.0\HotelListing.API.Data.pdb
+D:\c#\HotelListing\HotelListing.Data\obj\Debug\net6.0\ref\HotelListing.API.Data.dll

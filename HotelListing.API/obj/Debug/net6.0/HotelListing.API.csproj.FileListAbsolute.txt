@@ -14,7 +14,6 @@ D:\c#\HotelListing\HotelListing.API\obj\Debug\net6.0\HotelListing.API.GeneratedM
 D:\c#\HotelListing\HotelListing.API\obj\Debug\net6.0\HotelListing.API.AssemblyInfoInputs.cache
 D:\c#\HotelListing\HotelListing.API\obj\Debug\net6.0\HotelListing.API.AssemblyInfo.cs
 D:\c#\HotelListing\HotelListing.API\obj\Debug\net6.0\HotelListing.API.csproj.CoreCompileInputs.cache
-D:\c#\HotelListing\HotelListing.API\obj\Debug\net6.0\HotelListing.API.MvcApplicationPartsAssemblyInfo.cs
 D:\c#\HotelListing\HotelListing.API\obj\Debug\net6.0\HotelListing.API.MvcApplicationPartsAssemblyInfo.cache
 D:\c#\HotelListing\HotelListing.API\obj\Debug\net6.0\staticwebassets.build.json
 D:\c#\HotelListing\HotelListing.API\obj\Debug\net6.0\staticwebassets.development.json
@@ -280,3 +279,15 @@ D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identi
 D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.Core.dll
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\Microsoft.Spatial.dll
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\HotelListing.API.Core.dll
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\HotelListing.API.Data.dll
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\HotelListing.API.Core.pdb
+D:\c#\HotelListing\HotelListing.API\bin\Debug\net6.0\HotelListing.API.Data.pdb
+D:\c#\HotelListing\HotelListing.API\obj\Debug\net6.0\HotelListing.API.MvcApplicationPartsAssemblyInfo.cs

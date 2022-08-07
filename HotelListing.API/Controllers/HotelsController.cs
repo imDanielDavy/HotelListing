@@ -5,6 +5,8 @@ using HotelListing.API.Contracts;
 using AutoMapper;
 using HotelListing.API.Models.Hotel;
 using Microsoft.AspNetCore.Authorization;
+using HotelListing.API.Exceptions;
+using HotelListing.API.Models;
 
 namespace HotelListing.API.Controllers
 {
@@ -14,33 +16,37 @@ namespace HotelListing.API.Controllers
     {
         private readonly IHotelsRepository _hotelsRepository;
         private readonly IMapper _mapper;
+        private readonly ILogger<HotelsController> _logger;
 
-        public HotelsController(IHotelsRepository hotelsRepository, IMapper mapper)
+        public HotelsController(IHotelsRepository hotelsRepository, IMapper mapper, ILogger<HotelsController> logger)
         {
             _hotelsRepository = hotelsRepository;
             _mapper = mapper;
+            _logger = logger;
+        }
+
+        // GET: api/Hotels
+        [HttpGet("GetAll")]
+        public async Task<ActionResult<IEnumerable<HotelDto>>> GetHotels()
+        {
+            var hotels = await _hotelsRepository.GetAllAsync<HotelDto>();
+            return Ok(hotels);
         }
 
         // GET: api/Hotels
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<HotelDto>>> GetHotels()
+        public async Task<ActionResult<PagedResult<HotelDto>>> GetHotels([FromQuery] QueryParameters queryParameters)
         {
-            var hotels = await _hotelsRepository.GettAllAsync();
-            return Ok(_mapper.Map<List<HotelDto>>(hotels));
+            var pagedHotelsResult = await _hotelsRepository.GetAllAsync<HotelDto>(queryParameters);
+            return Ok(pagedHotelsResult);
         }
 
         // GET: api/Hotels/5
         [HttpGet("{id}")]
         public async Task<ActionResult<HotelDto>> GetHotel(int id)
         {
-            var hotel = await _hotelsRepository.GetAsync(id);
-
-            if (hotel == null)
-            {
-                return NotFound();
-            }
-
-            return Ok(_mapper.Map<HotelDto>(hotel));
+            var hotel = await _hotelsRepository.GetAsync<HotelDto>(id);
+            return Ok(hotel);
         }
 
         // PUT: api/Hotels/5
@@ -50,20 +56,12 @@ namespace HotelListing.API.Controllers
         {
             if (id != hotelDto.Id)
             {
-                return BadRequest();
+                return BadRequest("Invalid Id used in request");
             }
-
-            var hotel = await _hotelsRepository.GetAsync(id);
-            if (hotel == null)
-            {
-                return NotFound();
-            }
-
-            _mapper.Map(hotelDto, hotel);
 
             try
             {
-                await _hotelsRepository.UpdateAsync(hotel);
+                await _hotelsRepository.UpdateAsync(id, hotelDto);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -85,10 +83,8 @@ namespace HotelListing.API.Controllers
         [Authorize]
         public async Task<ActionResult<Hotel>> PostHotel(CreateHotelDto hotelDto)
         {
-            var hotel = _mapper.Map<Hotel>(hotelDto);
-            await _hotelsRepository.AddAsync(hotel);
-
-            return CreatedAtAction("GetHotel", new { id = hotel.Id }, hotel);
+            var hotel = await _hotelsRepository.AddAsync<CreateHotelDto, HotelDto>(hotelDto);
+            return CreatedAtAction(nameof(GetHotel), new { id = hotel.Id }, hotel);
         }
 
         // DELETE: api/Hotels/5
@@ -96,14 +92,7 @@ namespace HotelListing.API.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeleteHotel(int id)
         {
-            var hotel = await _hotelsRepository.GetAsync(id);
-            if (hotel == null)
-            {
-                return NotFound();
-            }
-
             await _hotelsRepository.DeleteAsync(id);
-
             return NoContent();
         }
 
