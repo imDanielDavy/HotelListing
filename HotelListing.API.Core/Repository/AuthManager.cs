@@ -71,7 +71,7 @@ namespace HotelListing.API.Repository
         public async Task<IEnumerable<IdentityError>> Register(ApiUserDto userDto)
         {
             _logger.LogInformation($"Signing up a user with email: {userDto.Email}");
-            var _user = _mapper.Map<ApiUser>(userDto);
+            _user = _mapper.Map<ApiUser>(userDto);
             _user.UserName = userDto.Email;
 
             var result = await _userManager.CreateAsync(_user, userDto.Password);
@@ -87,7 +87,7 @@ namespace HotelListing.API.Repository
         public async Task<IEnumerable<IdentityError>> RegisterAdmin(ApiUserDto userDto)
         {
             _logger.LogInformation($"Signing up an admin with email: {userDto.Email}");
-            var _user = _mapper.Map<ApiUser>(userDto);
+            _user = _mapper.Map<ApiUser>(userDto);
             _user.UserName = userDto.Email;
 
             var result = await _userManager.CreateAsync(_user, userDto.Password);

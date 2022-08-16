@@ -89,7 +89,7 @@ namespace HotelListing.API.Repository
 
         public async Task<T> GetAsync(int? id)
         {
-            if (id is null)
+            if (id == null)
             {
                 return null;
             }
